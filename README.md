@@ -2,6 +2,10 @@
 
 This is a simple Python script that uses Google's Gemini API to extract data from video files.
 
+Cobbled together at [AI Engineer World's Fair 2025](https://www.ai.engineer/), using code from [this workshop(https://github.com/philschmid/gemini-2.5-ai-engineering-workshop) by [@philschmid](https://github.com/philschmid). 🙏
+
+---
+
 It generates:
 
 - A title 
