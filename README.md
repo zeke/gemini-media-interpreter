@@ -1,4 +1,4 @@
-# Gemini video interpreter
+# 🍿 Gemini video interpreter
 
 This is a simple Python script that uses Google's Gemini API to extract data from video files.
 
