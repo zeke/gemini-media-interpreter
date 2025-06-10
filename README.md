@@ -37,6 +37,12 @@ Run the script:
 python video.py <video_path>
 ```
 
+By default, the script uses the prompt in `prompt.md`. You can specify a custom prompt file with the `--prompt` flag:
+
+```sh
+python video.py <video_path> --prompt custom_prompt.md
+```
+
 ## Example
 
 ```
@@ -80,4 +86,3 @@ Hey all you cool cats and kittens, I want to show you how to extract metadata fr
 ## Clean transcript
 
 Hey all you cool cats and kittens, I want to show you how to extract metadata from videos. Earlier today, I recorded this video for the team about our client libraries bake-off. I added bells and whistles using a green screen. I used OBS, an open-source software you install on your Mac for recording. That's cool. The thing that's not cool is when I upload that video to Loom, the website we use to share videos, you don't get any of the cool bells and whistles that come with Loom. I meant Loom. I'm going to start over.
-```
