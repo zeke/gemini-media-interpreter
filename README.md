@@ -43,6 +43,14 @@ By default, the script uses the prompt in `prompt.md`. You can specify a custom 
 python video.py <video_path> --prompt custom_prompt.md
 ```
 
+You can also specify which Gemini model to use with the `--model` flag (default: `gemini-2.5-flash-preview-05-20`):
+
+```sh
+python video.py <video_path> --model gemini-2.5-pro-preview-06-05
+```
+
+See the list of available models here: [Gemini API Models](https://ai.google.dev/gemini-api/docs/models)
+
 ## Example
 
 ```

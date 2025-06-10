@@ -6,16 +6,17 @@ import sys
 import argparse
 
 GEMINI_API_KEY = os.environ.get('GEMINI_API_KEY',None)
-MODEL_ID = "gemini-2.5-flash-preview-05-20"
 client = genai.Client(api_key=GEMINI_API_KEY)
 
 parser = argparse.ArgumentParser(description="Analyze a video with Gemini")
 parser.add_argument("video_path", help="Path to the video file")
 parser.add_argument("--prompt", type=str, default="prompt.md", help="Path to the prompt file (default: prompt.md)")
+parser.add_argument("--model", type=str, default="gemini-2.5-flash-preview-05-20", help="Gemini model to use (default: gemini-2.5-flash-preview-05-20)")
 args = parser.parse_args()
 
 video_path = args.video_path
 prompt_path = args.prompt
+MODEL_ID = args.model
 
 print(f"Uploading video: {video_path}")
 video_file_id = client.files.upload(file=video_path)
