@@ -2,7 +2,10 @@
 
 Simple Python command-line tool that uses Google's [Gemini API](https://ai.google.dev/gemini-api/docs/models) to extract data from audio and video files.
 
-Cobbled together at [AI Engineer World's Fair 2025](https://www.ai.engineer/), using code from [this workshop](https://github.com/philschmid/gemini-2.5-ai-engineering-workshop) by [@philschmid](https://github.com/philschmid). 🙏
+Cobbled together at [AI Engineer World's Fair 2025](https://www.ai.
+engineer/), using code from [this workshop](https://github.com/philschmid/gemini-2.5-ai-engineering-workshop) by [@philschmid](https://github.com/philschmid). 🙏
+
+![Gemini media interpreter](banner.png)
 
 ---
 
