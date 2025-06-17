@@ -63,19 +63,19 @@ See the list of available models here: [Gemini API Models](https://ai.google.dev
 
 ## Examples
 
-Analyze a local audio file:
+Analyze a local audio file (mp3, m4a, etc):
 
 ```sh
-python video.py sample.mp3
+python video.py sample.m4a
 ```
 
-Analyze a local video file:
+Analyze a local video file (mp4, mov, etc):
 
 ```sh
 python video.py sample.mov
 ```
 
-Analyze a YouTube video directly:
+Analyze a YouTube video directly by URL:
 
 ```sh
 python video.py "https://www.youtube.com/watch?v=dwgmfSOZNoQ"
