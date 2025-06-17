@@ -1,6 +1,6 @@
 # 🍿 Gemini media interpreter
 
-This is a simple Python script that uses Google's Gemini API to extract data from video and audio files.
+Simple Python command-line tool that uses Google's Gemini API to extract data from audio and video files.
 
 Cobbled together at [AI Engineer World's Fair 2025](https://www.ai.engineer/), using code from [this workshop](https://github.com/philschmid/gemini-2.5-ai-engineering-workshop) by [@philschmid](https://github.com/philschmid). 🙏
 
@@ -8,9 +8,9 @@ Cobbled together at [AI Engineer World's Fair 2025](https://www.ai.engineer/), u
 
 It can interpret:
 
-- Audio files on your computer
-- Video files on your computer
-- YouTube videos
+- Audio files on your computer (mp3, m4a, etc)
+- Video files on your computer (mp4, mov, etc)
+- YouTube videos (by URL)
 
 ---
 
