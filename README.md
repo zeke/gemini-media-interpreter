@@ -1,8 +1,16 @@
-# 🍿 Gemini video interpreter
+# 🍿 Gemini media interpreter
 
-This is a simple Python script that uses Google's Gemini API to extract data from video files.
+This is a simple Python script that uses Google's Gemini API to extract data from video and audio files.
 
 Cobbled together at [AI Engineer World's Fair 2025](https://www.ai.engineer/), using code from [this workshop](https://github.com/philschmid/gemini-2.5-ai-engineering-workshop) by [@philschmid](https://github.com/philschmid). 🙏
+
+---
+
+It can interpret:
+
+- Audio files on your computer
+- Video files on your computer
+- YouTube videos
 
 ---
 
@@ -37,7 +45,7 @@ Run the script:
 python video.py <video_path_or_youtube_url>
 ```
 
-You can provide either a path to a local video file or a YouTube URL as the first argument.
+You can provide either a path to a local audio or video file or a YouTube URL as the first argument.
 
 By default, the script uses the prompt in `prompt.md`. You can specify a custom prompt file with the `--prompt` flag:
 
@@ -54,6 +62,12 @@ python video.py <video_path_or_youtube_url> --model gemini-2.5-pro-preview-06-05
 See the list of available models here: [Gemini API Models](https://ai.google.dev/gemini-api/docs/models)
 
 ## Examples
+
+Analyze a local audio file:
+
+```sh
+python video.py sample.mp3
+```
 
 Analyze a local video file:
 
