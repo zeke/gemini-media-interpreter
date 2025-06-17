@@ -34,27 +34,37 @@ pip install -r requirements.txt
 Run the script:
 
 ```sh
-python video.py <video_path>
+python video.py <video_path_or_youtube_url>
 ```
+
+You can provide either a path to a local video file or a YouTube URL as the first argument.
 
 By default, the script uses the prompt in `prompt.md`. You can specify a custom prompt file with the `--prompt` flag:
 
 ```sh
-python video.py <video_path> --prompt custom_prompt.md
+python video.py <video_path_or_youtube_url> --prompt custom_prompt.md
 ```
 
 You can also specify which Gemini model to use with the `--model` flag (default: `gemini-2.5-flash-preview-05-20`):
 
 ```sh
-python video.py <video_path> --model gemini-2.5-pro-preview-06-05
+python video.py <video_path_or_youtube_url> --model gemini-2.5-pro-preview-06-05
 ```
 
 See the list of available models here: [Gemini API Models](https://ai.google.dev/gemini-api/docs/models)
 
-## Example
+## Examples
 
-```
+Analyze a local video file:
+
+```sh
 python video.py sample.mov
+```
+
+Analyze a YouTube video directly:
+
+```sh
+python video.py "https://www.youtube.com/watch?v=dwgmfSOZNoQ"
 ```
 
 ## Example output
